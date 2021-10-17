@@ -64,10 +64,10 @@ async def start_(client: Client, message: Message):
                         "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "ʀᴇᴘᴏ​​", url="https://github.com/KennedyProject/KennedyXMusic"
+                        "💋 Oᴡɴᴇʀ", url="https://github.com/KennedyProject/KennedyXMusic"
                     ),
                     InlineKeyboardButton(
-                        "ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{GROUP_SUPPORT}")
+                        "✌️ Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}")
                 ],[
                     InlineKeyboardButton(
                         "ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​ ❓​", callback_data="cbguide"
@@ -96,7 +96,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👥 Support", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 Support", url=f"https://t.me/A_4_AMAN_official"
                     )
                 ]
             ]
@@ -110,7 +110,7 @@ async def help(client: Client, message: Message):
         f"""<b>👋 **Hello** {message.from_user.mention()}</b>
 **Please press the button below to read the explanation and see the list of available commands !**
 
-💡 Bot by @{OWNER_NAME}""",
+💡 Bot by @A_4_AMAN_official""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -129,7 +129,7 @@ async def help_(client: Client, message: Message):
 
 **__In this menu you can open several available command menus, in each command menu there is also a brief explanation of each command__**
 
-💡 Bot by @{OWNER_NAME}""",
+💡 Bot by @A_4_AMAN_official""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
