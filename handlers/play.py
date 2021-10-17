@@ -6,6 +6,7 @@ import asyncio
 import aiohttp
 import requests
 import converter
+import yt_dlp
 from os import path
 from asyncio.queues import QueueEmpty
 from pyrogram import Client, filters
